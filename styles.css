@@ -1,5 +1,6 @@
 * {
-  background-color: aliceblue;
+  background-color: white;
+  margin: 0;
 }
 a {
   font-family: "Courier New", Courier, monospace;
@@ -8,8 +9,35 @@ a {
 }
 
 h1 {
-  color: rgb(72, 68, 68);
-  font-family: cursive;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
   font-size: 50px;
   text-align: center;
+  background-color: #5cbdb9;
+}
+h1:hover {
+  color: #fbe3e8;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  height: 40rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.menu a button {
+  height: 20rem;
+  width: 20rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  border: 0.5rem solid #5cbdb9;
+  background-color: #ebf6f5;
+}
+.menu a button:hover {
+  background-color: #fbe3e8;
+  border: 0.8rem solid #de8ecb;
+  color: white;
 }
